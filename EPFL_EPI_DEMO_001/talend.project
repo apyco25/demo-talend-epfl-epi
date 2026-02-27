@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_rUmAgBPAEfGie8-7414Dow" label="EPFL_EPI_DEMO_001" description="" language="java" technicalLabel="EPFL_EPI_DEMO_001" author="_rUmAgRPAEfGie8-7414Dow" productVersion="Qlik Talend Cloud Enterprise Edition-8.0.1.20251022_1713-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/apyco25/demo-talend-epfl-epi&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+    <migrationTask xmi:id="_rVszwBPAEfGie8-7414Dow" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_rUmAgRPAEfGie8-7414Dow" login="mwade@8vawhywf5h3ggx9.de.qlikcloud.com" firstName="Malick" lastName="Wade" type="DQ"/>
+</xmi:XMI>
