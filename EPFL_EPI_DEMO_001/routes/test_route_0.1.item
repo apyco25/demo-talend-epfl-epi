@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_hGNNkBRHEfGie8-7414Dow" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_hGNNkRRHEfGie8-7414Dow" confirmationNeeded="false" hide="false" name="Default"/>
+  <parameters xmi:id="_hGNNkhRHEfGie8-7414Dow">
+    <elementParameter xmi:id="_hGNNkxRHEfGie8-7414Dow" field="CHECK" name="LOG4J_RUN_ACTIVATE" value="true" show="false"/>
+    <elementParameter xmi:id="_hGNNlBRHEfGie8-7414Dow" field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter xmi:id="_hGNNlRRHEfGie8-7414Dow" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_hGNNlhRHEfGie8-7414Dow" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_hGNNlxRHEfGie8-7414Dow" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_hGNNmBRHEfGie8-7414Dow" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_hGNNmRRHEfGie8-7414Dow" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_hGNNmhRHEfGie8-7414Dow" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_hGNNmxRHEfGie8-7414Dow" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_hGNNnBRHEfGie8-7414Dow" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_hGNNnRRHEfGie8-7414Dow" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_hGNNnhRHEfGie8-7414Dow" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_hGNNnxRHEfGie8-7414Dow" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_hGNNoBRHEfGie8-7414Dow" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_hGNNoRRHEfGie8-7414Dow" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_hGNNohRHEfGie8-7414Dow" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_hGNNoxRHEfGie8-7414Dow" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_hGNNpBRHEfGie8-7414Dow" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_hGNNpRRHEfGie8-7414Dow" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+  </parameters>
+  <node xmi:id="_hGNNphRHEfGie8-7414Dow" componentName="cTimer" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="200" posY="160">
+    <elementParameter xmi:id="_hGNNpxRHEfGie8-7414Dow" field="TEXT" name="UNIQUE_NAME" value="cTimer_1" show="false"/>
+    <elementParameter xmi:id="_hGNNqBRHEfGie8-7414Dow" field="TEXT" name="PERIOD" value="1000"/>
+    <elementParameter xmi:id="_hGNNqRRHEfGie8-7414Dow" field="TEXT" name="REPEATCOUNT" value="0"/>
+    <elementParameter xmi:id="_hGNNqhRHEfGie8-7414Dow" field="TEXT" name="DELAY" value="1000"/>
+    <elementParameter xmi:id="_hGNNqxRHEfGie8-7414Dow" field="CHECK" name="FIXEDRATE" value="false"/>
+    <elementParameter xmi:id="_hGNNrBRHEfGie8-7414Dow" field="CHECK" name="DAEMON" value="true"/>
+    <elementParameter xmi:id="_hGNNrRRHEfGie8-7414Dow" field="CHECK" name="SET_TIME" value="false"/>
+    <elementParameter xmi:id="_hGNNrhRHEfGie8-7414Dow" field="TEXT" name="TIME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_hGNNrxRHEfGie8-7414Dow" field="LABEL" name="NOTE" value="(yyyy-MM-dd HH:mm:ss | yyyy-MM-dd'T'HH:mm:ss)" show="false"/>
+    <elementParameter xmi:id="_hGNNsBRHEfGie8-7414Dow" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_hGNNsRRHEfGie8-7414Dow" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_hGNNshRHEfGie8-7414Dow" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="400" posY="160">
+    <elementParameter xmi:id="_hGNNsxRHEfGie8-7414Dow" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
+    <elementParameter xmi:id="_hGNNtBRHEfGie8-7414Dow" field="MEMO_EDITOR_JAVA" name="CODE" value="/*&#xA;* Provide own codes to consume or translate the message exchanges.&#xA;* @param org.apache.camel.Exchange exchange&#xA;*&#xA;* Needed import statements must be added in Advanced settings&#xA;*/&#xA;log.info(&quot;--------------> Test route &lt;------------------&quot;);&#xA;System.out.println(&quot;-------->>>> loog okkkk &lt;&lt;&lt;&lt;&lt;&lt;--------&quot;);"/>
+    <elementParameter xmi:id="_hGNNtRRHEfGie8-7414Dow" field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_hGNNthRHEfGie8-7414Dow" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_hGNNtxRHEfGie8-7414Dow" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <connection xmi:id="_hGNNuBRHEfGie8-7414Dow" connectorName="ROUTE" label="route1" lineStyle="14" metaname="cTimer_1" offsetLabelX="0" offsetLabelY="0" source="cTimer_1" target="cProcessor_1">
+    <elementParameter xmi:id="_hGNNuRRHEfGie8-7414Dow" field="TEXT" name="UNIQUE_NAME" value="route1" show="false"/>
+  </connection>
+  <subjob xmi:id="_hGNNuhRHEfGie8-7414Dow">
+    <elementParameter xmi:id="_hGNNuxRHEfGie8-7414Dow" field="TEXT" name="UNIQUE_NAME" value="cTimer_1" show="false"/>
+  </subjob>
+  <subjob xmi:id="_hGNNvBRHEfGie8-7414Dow">
+    <elementParameter xmi:id="_hGNNvRRHEfGie8-7414Dow" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
+  </subjob>
+</talendfile:ProcessType>
